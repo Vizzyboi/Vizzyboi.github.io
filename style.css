@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yeseva One', cursive;
+}
+.header{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(images/images.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.sidebar{
+    position:absolute;
+    top: 0;
+    right: 0;
+    width: 120px;
+    height: 100vh;
+    background: rgba(0, 2, 63, 0.9);
+    text-align: center;
+}
